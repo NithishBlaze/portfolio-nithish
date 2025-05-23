@@ -1,0 +1,134 @@
+.loader-root {
+  margin: 0;
+  padding: 0;
+  background-color: #2b3468;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.loader-root .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-root .animation-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 100px auto;
+}
+
+.loader-root .triangle {
+  background-image: url('https://www.arlon.com/assets/layout/grey-triangle-up.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  filter: brightness(100);
+}
+
+.loader-root .one {
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  left: 70px;
+  animation: fadeUpOne 5s ease infinite;
+  animation-delay: 1s;
+  z-index: 2;
+}
+
+.loader-root .two {
+  width: 40px;
+  height: 40px;
+  top: 30px;
+  left: 100px;
+  animation: fadeUpTwo 5s ease infinite;
+  animation-delay: 0.8s;
+  z-index: 1;
+}
+
+.loader-root .three {
+  width: 30px;
+  height: 30px;
+  top: 65px;
+  left: 60px;
+  animation: fadeUpThree 5s ease infinite;
+  animation-delay: 0.5s;
+}
+
+.loader-root .four {
+  width: 15px;
+  height: 15px;
+  top: 80px;
+  left: 125px;
+  animation: fadeUpFour 5s ease infinite;
+  animation-delay: 0.4s;
+}
+
+.loader-root .five {
+  width: 20px;
+  height: 20px;
+  top: 105px;
+  left: 80px;
+  animation: fadeUpFive 5s ease infinite;
+  animation-delay: 0.2s;
+}
+
+.loader-root .fade-up {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeUpOne {
+  0% { opacity: 0; transform: translateY(70px) rotate(60deg); }
+  25% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  75% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  100% { opacity: 0; transform: translateY(-70px) rotate(60deg); }
+}
+
+@keyframes fadeUpTwo {
+  0% { opacity: 0; transform: translateY(70px) rotate(60deg); }
+  25% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  75% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  100% { opacity: 0; transform: translateY(-70px) rotate(60deg); }
+}
+
+@keyframes fadeUpThree {
+  0% { opacity: 0; transform: translateY(50px) rotate(60deg); }
+  25% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  75% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  100% { opacity: 0; transform: translateY(-50px) rotate(60deg); }
+}
+
+@keyframes fadeUpFour {
+  0% { opacity: 0; transform: translateY(60px) rotate(60deg); }
+  25% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  75% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  100% { opacity: 0; transform: translateY(-60px) rotate(60deg); }
+}
+
+@keyframes fadeUpFive {
+  0% { opacity: 0; transform: translateY(50px) rotate(60deg); }
+  25% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  75% { opacity: 1; transform: translateY(0) rotate(60deg); }
+  100% { opacity: 0; transform: translateY(-50px) rotate(60deg); }
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}

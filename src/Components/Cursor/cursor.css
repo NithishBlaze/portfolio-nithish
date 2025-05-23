@@ -1,0 +1,24 @@
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 150ms ease;
+  z-index: 9999;
+  mix-blend-mode: difference; /*Optional for cool effect*/
+}
+
+.custom-cursor.clicked {
+  transform: translate(-50%, -50%) scale(0.8);
+  background-color: transparent;
+}
+
+.custom-cursor.hovered {
+  transform: translate(-50%, -50%) scale(1.5);
+  background-color: rgba(0, 0, 0, 0.1);
+}

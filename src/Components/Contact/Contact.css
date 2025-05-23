@@ -1,0 +1,70 @@
+.contactSection {
+    margin-top: 80px;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.contentWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.zoomIn a {
+    margin: 0 15px;
+    color: #555;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+.zoomIn a:hover,
+.zoomIn a:focus {
+    color: #0073b1;
+    /* LinkedIn blue as default hover */
+    transform: scale(1.2);
+    outline: none;
+}
+
+/* Different hover colors for each icon */
+.zoomIn a[title="LinkedIn"]:hover {
+    color: #0077b5;
+}
+
+.zoomIn a[title="Instagram"]:hover {
+    color: #e4405f;
+}
+
+.zoomIn a[title="Email"]:hover {
+    color: #ea4335;
+}
+
+/* For screen reader only text */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}

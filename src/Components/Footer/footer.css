@@ -1,0 +1,116 @@
+footer {
+    background-color: #545353;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+ul.social-buttons {
+    margin: 0 auto 20px;
+    padding: 0;
+    list-style: none;
+}
+
+ul.social-buttons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul.social-buttons li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    background: #333;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+ul.social-buttons li a:hover {
+    color: #fff;
+    box-shadow: 1px 1px 5px #000;
+    transform: scale(1.1);
+}
+
+/* Platform-specific hover colors */
+#facebook:hover {
+    background-color: #3B5998;
+}
+
+#twitter:hover {
+    background-color: #55ACEE;
+}
+
+#instagram:hover {
+    background-color: #ff72c7;
+}
+
+#codepen:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#linkedin:hover {
+    background-color: #0077B5;
+}
+
+#github:hover {
+    background-color: #38424c;
+}
+
+#spotify:hover {
+    background-color: #2ebd59;
+}
+
+.page-scroll {
+    margin: 20px 0;
+}
+
+#to-top img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#to-top img:hover {
+    transform: translateY(-5px);
+}
+
+#to-top-copy {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #bbb;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 300;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    ul.social-buttons li a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    #to-top img {
+        width: 35px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+.list-content {
+    display: flex;
+    justify-content: center;
+}
