@@ -76,7 +76,7 @@ function Home() {
 
     return (
 
-        <div className="parent">
+        <div className="home-parent">
             <div className="div1">
                 <div className="text-container" data-aos='fade'>
                     <h1>Hi, I'm Nithish</h1>
@@ -92,7 +92,7 @@ function Home() {
             </div>
 
             <div className="div2">
-                <div className="heading">
+                <div className="home-heading">
                     <h1 data-aos='zoom-in'>About !</h1>
                 </div>
                 <div className="main-content">
@@ -143,7 +143,7 @@ function Home() {
                 </div>
             </div>
             <div className="div3">
-                <div className="heading">
+                <div className="home-heading">
                     <h1 data-aos='zoom-in'>Professional Experience</h1>
                 </div>
                 <div className="experience-section" data-aos='fade-up'>

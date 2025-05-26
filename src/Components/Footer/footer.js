@@ -14,12 +14,12 @@ const Footer = () => {
                             <li><a id="spotify" href="https://play.spotify.com/user/31c5ijt2c5xfeig42rbfxicaocaq" target="_blank" rel="noopener noreferrer"><i className="fa fa-spotify"></i></a></li>
                             {/* <li><a id="codepen" href="http://codepen.io/bchiang7/" target="_blank" rel="noopener noreferrer"><i className="fa fa-codepen"></i></a></li> */}
                             <li><a id="github" href="https://github.com/NithishBlaze" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
-                            <li><a id="linkedin" href="https://www.linkedin.com/in/bchiang7" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a></li>
+                            <li><a id="linkedin" href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a></li>
                         </ul>
 
                         <div className="page-scroll">
                             <a id="to-top" className="page-scroll" href="#" aria-label="Back to top">
-                                <i className="fa fa-rocket" style={{ fontSize: '40px', color: '#fff' }}></i>
+                                <i className="fa fa-rocket" style={{ fontSize: '40px', color: '#686868'}}></i>
                             </a>
                             <p id="to-top-copy">Beam me up, Scotty!</p>
                         </div>

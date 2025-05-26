@@ -1,4 +1,4 @@
-.parent {
+.project-parent {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,12 +16,14 @@
 
 
 .card-display {
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     width: 100%;
     max-width: 1200px;
+    margin-bottom: 80px;
 }
 
 .project-card {

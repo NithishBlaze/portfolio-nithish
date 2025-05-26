@@ -39,8 +39,9 @@ function Project() {
         },
     ]
     return (
-        <div className="parent">
+        <div className="project-parent">
             <h1>My work</h1>
+            
             <div className="card-display">
                 {projects.map((project, index) => (
                     <ProjectCard

@@ -1,21 +1,23 @@
-body,
+/* body,
 html {
   height: 100%;
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
-}
+} */
 
-.wrapper {
+.resume-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   /* height: calc(100vh - 80px); Adjust based on your navbar height */
-  margin-top: 80px; /* Equal to navbar height to avoid overlap */
+  /* margin-top: 80px; Equal to navbar height to avoid overlap */
   background-color: #f9f9f9;
+  /* margin-bottom: 80px; */
 }
 
 .pdf-container {
+  margin-top: 160px;
   width: 100%;
   max-width: 900px;
   aspect-ratio: 1 / 1.414; /* A4 ratio (W:H) */
@@ -38,6 +40,7 @@ html {
   font-weight: bold;
   color: #007bff;
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
 }
 .download-link:hover {
   text-decoration: underline;
