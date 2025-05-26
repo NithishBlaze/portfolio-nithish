@@ -3,16 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    /* background: rgb(255, 255, 255); */
-}
+    }
 
-/* .container{
-    width: 100vw;
-    height: 100vh;
 
-} */
-
-/* Existing styles... */
 
 html, body {
   height: 100%;

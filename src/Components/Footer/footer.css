@@ -3,8 +3,7 @@ footer {
     color: #000000;
     padding: 1px;
     text-align: center;
-    /* margin-top: 80px; */
-    display: flex;
+        display: flex;
     justify-content: center;
     align-items: center;
     height: 230px;
@@ -43,7 +42,6 @@ ul.social-buttons li a:hover {
     transform: scale(1.1);
 }
 
-/* Platform-specific hover colors */
 #facebook:hover {
     background-color: #3B5998;
 }

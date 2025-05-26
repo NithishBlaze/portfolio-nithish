@@ -7,19 +7,14 @@ import Resume from './Components/Resume/resume';
 import Project from './Components/Projects/Project';
 import Footer from './Components/Footer/footer';
 import Contact from './Components/Contact/Contact';
-// import Experience from './Components/Experience/experience';
 
 function App() {
   return (
     <Router>
       <CustomCursor />
-      
-      {/* Header Section */}
       <header>
         <Header />
       </header>
-
-      {/* Main Content Section */}
       <main>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -28,8 +23,6 @@ function App() {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </main>
-
-      {/* Footer Section */}
       <footer>
         <Footer />
       </footer>
