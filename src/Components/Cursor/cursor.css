@@ -10,7 +10,7 @@
   pointer-events: none;
   transition: all 150ms ease;
   z-index: 9999;
-  mix-blend-mode: difference; /*Optional for cool effect*/
+  mix-blend-mode: difference;
 }
 
 .custom-cursor.clicked {

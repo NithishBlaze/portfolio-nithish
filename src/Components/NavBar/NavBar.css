@@ -29,8 +29,7 @@ ul li{
 a{
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* font-family: 'Raleway', sans-serif;; */
-    color: black;
+        color: black;
     text-decoration: none;
 }
 .heading-nav{
@@ -46,14 +45,9 @@ a{
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: background-color 1.0s ease, backdrop-filter 1.0s ease;
 }
-/* *{
-    background-color: transparent;
-} */
 
 
-/* MEDIA QUERY */
 
-/* Hamburger icon styles */
 .menu-icon {
   display: none;
   flex-direction: column;
